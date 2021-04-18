@@ -21,5 +21,11 @@ module.exports = {
         isUsingColorMode: true,
       },
     },
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        url: "http://ifstudio.co/projects/lucas/tagus/graphql"
+      }
+    }
   ],
 };
